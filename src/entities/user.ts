@@ -10,8 +10,4 @@ export class User{
         this.name = props.name
         this.id = props.id || 0
     }
-
-    async mostrarNome(){
-        console.log(this.name)
-    }
 }
